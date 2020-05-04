@@ -9,3 +9,4 @@ def Bubbling(list_a):        #定义一个Bubbling函数。注意：默认参数
                 print(list_a)       #打印每次交换交换位置后数组
     print(list_a)       #打印排序完成的数组
 Bubbling(list_a = [9,33,5,22,32,1])     #调用Bubbling函数，使用关键字传参
+print()
