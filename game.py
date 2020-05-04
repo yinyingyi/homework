@@ -93,5 +93,4 @@ tl.see_people('WYZ')        #给see_people方法传参
 tl.fight_zms()      #调用Tonglao类下fight_zms()方法
 tl.enemy()          #调用Tonglao类下enemy()方法
 tl.rule()           #调用Tonglao类下rule()方法
-
-
+print()

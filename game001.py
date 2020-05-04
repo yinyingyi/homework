@@ -7,3 +7,4 @@ class Xuzhu(Tonglao):
 
 xz = Xuzhu()
 xz.read()
+print()
