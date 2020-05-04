@@ -1,5 +1,5 @@
 #冒泡排序
-def Bubbling(list_a=[]):        #定义一个Bubbling函数
+def Bubbling(list_a):        #定义一个Bubbling函数。注意：默认参数最好不要是可变对象
     for i in range(1,len(list_a)):          #设定循环次数len()-1，使用range()函数读取len()方法返回的值
         print('第{}次排序'.format(i))       #方便查看，打印排序次数
         for j in range(len(list_a)-i):      #设定比较次数，递减，i+j=len()
