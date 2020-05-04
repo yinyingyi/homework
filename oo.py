@@ -164,3 +164,4 @@ p = Person()        #对类进行实例化
 p.attribute('Tom')  #给attribute方法传参
 p.student()         #调用类student方法
 p.worker()          #调用类worker方法
+print()
