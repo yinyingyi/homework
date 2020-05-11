@@ -42,7 +42,7 @@ class Practice():       #定义一个练习类
             elif weight == heath_weight:        #如果=健康体重，输出标准，并且在文档第4列标注
                 print("{}标准".format(self.name[i]))
                 sheet.cell(row=i + 2, column=4).value = "标准"
-            else:       #如果>健康体重，输出太瘦，并且在文档第4列标注
+            else:       #其他，输出太瘦，并且在文档第4列标注
                 print("{}太瘦".format(self.name[i]))
                 sheet.cell(row=i + 2, column=4).value = "太瘦"
             ld.save("excel_one.xlsx")
